@@ -1,0 +1,139 @@
+@media (max-width: 67.75em) {
+  .btn {
+    padding: 1rem 4rem;
+  }
+
+  .hero-description {
+    margin: 3rem 0;
+  }
+
+  .btn-hero {
+    margin-left: 0;
+  }
+  .hero {
+    padding: 12rem 8rem;
+    text-align: center;
+    margin-bottom: 8rem;
+  }
+
+  .img-cta {
+    margin: 0 auto;
+  }
+  .cta {
+    padding: 5rem 0;
+  }
+  .faq-grid {
+    grid-template-columns: 1fr;
+    justify-items: center;
+    margin: 8rem 0;
+  }
+  .hero div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+}
+
+@media (max-width: 43.75em) {
+  html {
+    /* 9px / 16px  */
+    font-size: 56.25%;
+  }
+
+  .hamburger {
+    display: block;
+  }
+
+  header .nav,
+  header .btn {
+    display: none;
+  }
+
+  header a {
+    margin: 0 auto;
+  }
+
+  footer .flex {
+    flex-direction: column;
+  }
+
+  .social-media {
+    margin: 0 auto;
+  }
+
+  .fa-brands {
+    font-size: 3.2rem;
+  }
+
+  .footer-content {
+    padding: 6rem 0;
+  }
+
+  .fa-square-facebook {
+    margin: 0 2rem;
+  }
+
+  .nav-list {
+    align-items: center;
+  }
+
+  .cta {
+    padding: 8rem 4rem;
+  }
+
+  .img-cta {
+    width: 30rem;
+    margin: 0 auto;
+  }
+
+  .img-quality {
+    max-width: 40rem;
+  }
+  .join .flex {
+    flex-direction: column;
+    gap: 2rem;
+    align-items: center;
+  }
+
+  .join hgroup {
+    text-align: center;
+  }
+
+  .qualities {
+    margin-bottom: 8rem;
+  }
+
+  .values h2 {
+    margin-bottom: 6rem;
+  }
+}
+
+@media (max-width: 23.43em) {
+  html {
+    font-size: 50%;
+  }
+
+  .cta {
+    padding: 8rem 2rem;
+  }
+  .img-quality {
+    max-width: 35rem;
+  }
+  h1 {
+    font-size: 4.5rem;
+  }
+  h2 {
+    font-size: 3.6rem;
+  }
+  .hero {
+    padding: 12rem 2rem;
+  }
+  .join .btn {
+    width: 100%;
+  }
+  .about-hero {
+    text-align: center;
+    padding: 4rem 0;
+    margin-bottom: 6rem;
+  }
+}
